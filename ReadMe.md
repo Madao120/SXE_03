@@ -1,7 +1,7 @@
 ### 1. Descarga la imagen de Alpine sin arrancarla y comprueba que la tienes. Fija la versión: no uses latest. Escoge una versión, de las disponibles en docker hub.
 
 La forma de realizar esto es con:
-docker pull alpine:3.34.2
+docker pull alpine:3.24.2
 
 ![imagen alpine:3.34.2](/capturas/1.png)
 
