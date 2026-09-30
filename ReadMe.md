@@ -12,7 +12,7 @@ Estado: Created
 Nombre: "eager_brattain"
 
 ### 3. Crea y arranca dam_alp1 con una shell. ¿Qué opciones necesitas para poder escribir dentro?
-Para crear y arrancar usamos docker run.
+Para crear y arrancar usamos docker run.<br>
 Según los requisitos del ejercicio, usaremos:
 --name para asignarle dam_alp1
 -it para interactuar directamente con una shell
@@ -48,7 +48,7 @@ Tampoco funciona con Hostnames
 ![img con ping nombre](/capturas/5.2(con_hostnames).png)
 
 ### 6. Con los dos en marcha, averigua cuánta memoria consumen. ¿Hay un comando de Docker para eso?
-SI que hay un comando de DOcker para ver cuanta memoria consumen ls docker activos
+SI que hay un comando de Docker para ver cuanta memoria consumen ls docker activos
 Es **docker stats**
 
 Pero no solo mira memoria, si no que también mira el nombre, porcentaje de CPU, límite de memoria, etc.
@@ -69,15 +69,15 @@ Aquí observamos que los contenedores no están activos pero siguen existiendo.
 
 
 ### 8. ¿Cuánto disco has ocupado? Distingue imágenes de contenedores.
-#### Aclaración: Para este paso borré los contenedores e imágenes que tenía antes de empezar el ejercicio
+#### Aclaración: Para este paso borré los contenedores e imágenes que tenía antes de empezar el ejercicio.
 Para comprobar esto, debemos de hacer **docker system df**
 ![docker system df comprobante de discos](/capturas/8.png)
 
-Aquí veremos que tenemos 1 imagen, la de alpine:3.34.2
+Aquí veremos que tenemos 1 imagen, la de alpine:3.34.2 <br>
 Y 3 contenedores, que son los dos dam_alp (1 y 2) a demás del contenedor de alpine que creamos sin nombre en el ejercicio 2
 
-Espacio de disco Imágenes:      8.422 MB
-Espacio de disco COntenedores:  274B
+Espacio de disco Imágenes:      8.422 MB <br>
+Espacio de disco Contenedores:  274B
 
 
 
